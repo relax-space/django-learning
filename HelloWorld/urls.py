@@ -17,9 +17,13 @@ from HelloWorld.view import hello
 from HelloWorld.testdb import testdb
 from django.contrib import admin
 from django.urls import path
+from HelloWorld import search
 
 urlpatterns =[
     path('admin/', admin.site.urls),
     path("hello/",hello),
     path("testdb/",testdb),
+    path(r"search-form/",search.search_form),
+    path(r"search/",search.search),
+    path(r"search-post/",search.search_post),
 ]
