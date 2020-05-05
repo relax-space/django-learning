@@ -5,6 +5,10 @@
 ## start
 1. pip install Django
 
+暂时放弃：
+原因：这个模型 显的关系非常混乱
+
+
 
 
 
